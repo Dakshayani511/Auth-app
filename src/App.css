@@ -1,0 +1,48 @@
+/* App.css */
+body{
+  background-image: url(th.jpeg);
+  background-size: 100%;
+  background-position: cover;
+  }
+  .registerbutton{
+      display: grid; 
+      grid-template-rows: max-content;
+     
+  }
+    
+  .center-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    border: solid burlywood 3px;
+  }
+      
+     
+   
+   
+   label {
+     margin: 10px 0;
+     }
+   
+   button {
+     margin: 5px;
+     width: 400px;
+     height: 50px;
+     color: white;
+  background-color: burlywood;
+     
+   }
+   button:hover {
+      background-color: plum;
+  }
+   .username{
+      margin: 5px;
+      width: 400px;
+      height: 50px;
+   }
+   .text{
+      margin: 5px;
+      width: 400px;
+      height: 50px; 
+   }
